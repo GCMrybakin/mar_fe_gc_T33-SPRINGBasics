@@ -20,3 +20,26 @@ Luego seleccionamos un directorio de trabajo y le damos a siguiente.
 ![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/822367fa-12e0-4c1a-b265-4d2b08bcfe10)
 
 y ya tenemos STS4 instalado!
+
+
+# 2 Crear un proyecto básico Spring Utilizando Maven. 
+Abre tu IDE, en mi caso eclipse y selecciona la opción para crear un nuevo proyecto.
+Elige la plantilla o arquetipo de proyecto de o Maven.
+
+![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/11248b70-4ee7-4d5f-b705-4b7cb37327af)
+
+Completa los detalles del proyecto, como el groupId y el artifactId.
+Haz clic en "Finalizar" o "Crear proyecto" para generar el proyecto.
+
+![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/1ce3d5e9-7e9b-4584-88fa-7f5912f5e77c)
+
+Una vez creado el projecto en maven ponemos esto en el archivo pom.xml:
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/cb3d5eb0-5ac0-427f-89b2-7537e2d10ad5)
+
+
+Y ahora se puede usar spring, se puede utilizar el comando spring-boot:run para iniciar el projecto
