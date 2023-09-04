@@ -43,3 +43,19 @@ Una vez creado el projecto en maven ponemos esto en el archivo pom.xml:
 
 
 Y ahora se puede usar spring, se puede utilizar el comando spring-boot:run para iniciar el projecto
+
+# 3 Crear un proyecto básico Spring Utilizando graddle. 
+
+Para crear un nuevo proyecto de graddle le damos a la seccion de proyecto y luego le damos a graddle project 
+![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/a0d0ce63-4390-4d17-8f06-4fc8962aabee)
+![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/fc27f6b5-36af-41e7-9516-426c254decc6)
+
+Nos pedira introducir un nombre para el projecto y une vez escrito uno le damos a next.
+
+Despues de esperar a que termine nos vamos al proyecto y al archivo build.graddle y ponemos esto en el archivo.
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+![image](https://github.com/GCMrybakin/mar_fe_gc_T33-SPRINGBasics/assets/135844963/e764b1e5-c9f2-4121-8217-7812664e8456)
